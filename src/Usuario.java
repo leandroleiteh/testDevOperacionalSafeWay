@@ -6,11 +6,9 @@ public class Usuario {
 	private Empresa empresa;
 
 	public Usuario() {
-		super();
 	}
 
 	public Usuario(String username, String senha, Cliente cliente, Empresa empresa) {
-		super();
 		this.username = username;
 		this.senha = senha;
 		this.cliente = cliente;

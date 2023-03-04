@@ -7,7 +7,6 @@ public class Produto {
 	private Empresa empresa;
 
 	public Produto(Integer id,String nome, Integer quantidade, Double preco, Empresa empresa) {
-		super();
 		this.id = id;
 		this.nome = nome;
 		this.quantidade = quantidade;
@@ -16,8 +15,6 @@ public class Produto {
 	}
 
 	public Produto() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	
